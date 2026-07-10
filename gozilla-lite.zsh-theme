@@ -12,4 +12,4 @@ ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ➦"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ✂"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$FG[244]%} ✱"
 
-PROMPT='%{$fg_bold[blue]%}➜ %{$fg_bold[green]%} %{$fg[blue]%}%c %{$fg_bold[blue]%}$(git_prompt_info) ⌚ %{$fg_bold[red]%}$ %{$reset_color%}'
+PROMPT='%{$fg_bold[blue]%}➜ %{$fg_bold[green]%} %{$fg[blue]%}%c %{$fg_bold[blue]%}$(git_prompt_info) ⌚ %{$fg[yellow]%}%* %{$fg_bold[red]%}$ %{$reset_color%}'
